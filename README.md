@@ -5,8 +5,8 @@ There are Dockerfile for building **Apache** with **PHP** web container for [**C
 
 |Docker tag|Main middleware|Dockerfile link|
 |---|---|---|
-|`7.0`, **`latest`**|Apache2, PHP7.0|[(7.0)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php70)|
-|`5.6`|Apache2, PHP5.6|[(5.6)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php56)|
+|`php70`, `7.0`, **`latest`**|Apache2, PHP7.0|[(php70)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php70)|
+|`php56`, `5.6`|Apache2, PHP5.6|[(php56)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php56)|
 
 ## Installed PHP modules
 
