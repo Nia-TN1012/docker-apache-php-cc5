@@ -2,7 +2,7 @@
 
 このリポジトリは、[**Concrete5**](https://www.concrete5.org/)用の *Apache* + *PHP* WebコンテナのDockerイメージです。
 
-このDockerイメージは、[`niatn1012/concrete5`]((https://hub.docker.com/r/niatn1012/concrete5/))のベースですが、ホスト上のConcrete5ソースファイルをマウントしたり、他のバージョンのものをインストールしたりすることができます。
+このDockerイメージは、[`niatn1012/concrete5`]((https://hub.docker.com/r/niatn1012/concrete5/))のベースですが、ホスト上のConcrete5ソースファイルをマウントしたり、他のバージョンのものをインストールしたりすることができます。
 
 ## サポートされるタグと`Dockerfile`のリンク一覧
 
