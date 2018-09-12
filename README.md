@@ -4,6 +4,9 @@ This repository is a Dcoker image of **Apache** with **PHP** web container for [
 
 This Docker image is for the base of [`niatn1012/concrete5`]((https://hub.docker.com/r/niatn1012/concrete5/)), but it is possible to mount the Concrete5 source files from your host or install the other version and use it.
 
+[![Docker Automated build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/niatn1012/apache-php-cc5/)
+[![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/Nia-TN1012/docker-apache-php-cc5/blob/master/LICENSE)
+
 ## Supported tags and respective `Dockerfile` links
 
 |Docker tag|Main middleware|Dockerfile link|
@@ -59,4 +62,5 @@ Please be understanding of this beforehand.
 
 ## Release Notes
 
+* 2018/09/12: Fixed incorrectly specifying Dockerfile in the build setting of `php70`.
 * 2018/09/10: First release.

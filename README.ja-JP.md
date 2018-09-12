@@ -4,6 +4,9 @@
 
 このDockerイメージは、[`niatn1012/concrete5`]((https://hub.docker.com/r/niatn1012/concrete5/))のベースですが、ホスト上のConcrete5ソースファイルをマウントしたり、他のバージョンのものをインストールしたりすることができます。
 
+[![Docker Automated build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/niatn1012/apache-php-cc5/)
+[![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/Nia-TN1012/docker-apache-php-cc5/blob/master/LICENSE)
+
 ## サポートされるタグと`Dockerfile`のリンク一覧
 
 |Dockerタグ|主なミドルウェア|Dockerfileのリンク|
@@ -59,4 +62,5 @@ services:
 
 ## リリースノート
 
+* 2018/09/12: `php70`のビルド設定にて、Dockerfileの指定に誤りがあったので修正しました。
 * 2018/09/10: 初版リリース
