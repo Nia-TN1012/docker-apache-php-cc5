@@ -9,14 +9,14 @@ LABEL maintainer "Nia Tomonaka (@nia_tn1012)"
 
 # Update packages and installs;
 # * apache2
-# * php7.0
-#   * php7-pdo_mysql        (MySQL)
-#   * php-xml               (XML)
-#   * php-mbstring          (Mbstring)
-#   * php-curl              (cURL)
-#   * php-mcrypt            (Mcrypt)
-#   * php-zip               (ZipArchive)
-#   * php-gd                (Graphics)
+# * php7
+#   * php7-pdo_mysql         (MySQL)
+#   * php7-xml               (XML)
+#   * php7-mbstring          (Mbstring)
+#   * php7-curl              (cURL)
+#   * php7-mcrypt            (Mcrypt)
+#   * php7-zip               (ZipArchive)
+#   * php7-gd                (Graphics)
 #
 # Note: For Alpine Linux, the following additional modules are required.
 #       php7-apache2, php7-simplexml, php7-dom, php7-ctype, php7-json,
