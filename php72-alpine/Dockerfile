@@ -1,6 +1,6 @@
 #
-# Apache2 and PHP 7.x for Concrete5
-# Alpine Linux 3.8 + Apache2 + PHP7.x
+# Apache2 and PHP 7.2 for Concrete5
+# Alpine Linux 3.8 + Apache2 + PHP7.2
 #
 
 FROM alpine:3.8
@@ -14,7 +14,6 @@ LABEL maintainer "Nia Tomonaka (@nia_tn1012)"
 #   * php7-xml               (XML)
 #   * php7-mbstring          (Mbstring)
 #   * php7-curl              (cURL)
-#   * php7-mcrypt            (Mcrypt)
 #   * php7-zip               (ZipArchive)
 #   * php7-gd                (Graphics)
 #
@@ -28,7 +27,6 @@ RUN apk add --update --no-cache \
             php7-xml \
             php7-mbstring \
             php7-curl \
-            php7-mcrypt \
             php7-zip \
             php7-gd \
                 php7-apache2 \

@@ -13,17 +13,19 @@ LABEL maintainer "Nia Tomonaka (@nia_tn1012)"
 #   * php-mysql             (MySQL)
 #   * php-xml               (XML)
 #   * php-mbstring          (Mbstring)
+#   * php-mcrypt            (Mcrypt)
 #   * php-zip               (ZipArchive)
 #   * php-gd                (Graphics)
 RUN yum update -y \
     && rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm \
     && rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-7.rpm \
     && yum install -y httpd \
-    && yum install -y --enablerepo=remi,remi-php72 \
+    && yum install -y --enablerepo=remi,remi-php71 \
         php \
             php-mysql \
             php-xml \
             php-mbstring \
+            php-mcrypt \
             php-zip \
             php-gd \
         unzip \
