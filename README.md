@@ -35,6 +35,11 @@ For PHP version `PHP 5.6`, `PHP 7.0`, `PHP 7.1` and `PHP 7.2` are available.
 
 ### Debian Stretch-slim
 
+<details>
+<summary>
+View
+</summary>
+
 > `php70` version is installed from Debian official repository,`php72`, `php71`, `php56` version are installed from [`Sury repository`](https://deb.sury.org/).
 
 * php-mysql
@@ -45,7 +50,14 @@ For PHP version `PHP 5.6`, `PHP 7.0`, `PHP 7.1` and `PHP 7.2` are available.
 * php-zip
 * php-gd
 
+</details>
+
 ### CentOS 7
+
+<details>
+<summary>
+View
+</summary>
 
 > Installed from [`Remi repository`](https://rpms.remirepo.net/).
 
@@ -56,8 +68,15 @@ For PHP version `PHP 5.6`, `PHP 7.0`, `PHP 7.1` and `PHP 7.2` are available.
 * php-zip
 * php-gd
 
+</details>
+
 ### Alpine Linux
 
+<details>
+<summary>
+View
+</summary>
+    
 > Installed from Alpine Linux official repository.
 
 * php-mysql
@@ -76,12 +95,11 @@ For PHP version `PHP 5.6`, `PHP 7.0`, `PHP 7.1` and `PHP 7.2` are available.
 * php-openssl
 * php-iconv
 * php-session
+</details>
 
 ## Links
 
 * niatn1012/concrete5 ( [Docker Hub](https://hub.docker.com/r/niatn1012/concrete5/) / [GitHub](https://github.com/Nia-TN1012/docker-concrete5) )
-* niatn1012/concrete5-centos ( [Docker Hub](https://hub.docker.com/r/niatn1012/concrete5-centos/) / [GitHub](https://github.com/Nia-TN1012/docker-concrete5-centos) )
-* niatn1012/concrete5-alpine ( [Docker Hub](https://hub.docker.com/r/niatn1012/concrete5-alpine/) / [GitHub](https://github.com/Nia-TN1012/docker-concrete5-alpine) )
 
 
 ## [APPENDIX] Mount Concrete5 source files on your host to a container created from this Dokoker image and use it
