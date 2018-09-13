@@ -35,7 +35,7 @@ For PHP version `PHP 5.6`, `PHP 7.0`, `PHP 7.1` and `PHP 7.2` are available.
 
 ### Debian Stretch-slim
 
-> `php70` version is installed from Debian official repository,`php72`, `php71`, `php56` version are installed from [Sury repository](https://deb.sury.org/).
+> `php70` version is installed from Debian official repository,`php72`, `php71`, `php56` version are installed from [`Sury repository`](https://deb.sury.org/).
 
 * php-mysql
 * php-xml
