@@ -2,7 +2,7 @@
 
 This repository is a Dcoker image of **Apache** with **PHP** web container for [**Concrete5**](https://www.concrete5.org/).
 
-This Docker image is for the base of [`niatn1012/concrete5`]((https://hub.docker.com/r/niatn1012/concrete5/)), but it is possible to mount the Concrete5 source files from your host or install the other version and use it.
+This Docker image is for the base of [`niatn1012/concrete5`](https://hub.docker.com/r/niatn1012/concrete5/), but it is possible to mount the Concrete5 source files from your host or install the other version and use it.
 
 [![Docker Automated build](https://img.shields.io/docker/automated/niatn1012/apache-php-cc5.svg)](https://hub.docker.com/r/niatn1012/apache-php-cc5/)
 [![Docker Build Status](https://img.shields.io/docker/build/niatn1012/apache-php-cc5.svg)](https://hub.docker.com/r/niatn1012/apache-php-cc5/)
@@ -35,11 +35,6 @@ For PHP version `PHP 5.6`, `PHP 7.0`, `PHP 7.1` and `PHP 7.2` are available.
 
 ### Debian Stretch-slim
 
-<details>
-<summary>
-View
-</summary>
-
 > `php70` version is installed from Debian official repository,`php72`, `php71`, `php56` version are installed from [`Sury repository`](https://deb.sury.org/).
 
 * php-mysql
@@ -50,14 +45,7 @@ View
 * php-zip
 * php-gd
 
-</details>
-
 ### CentOS 7
-
-<details>
-<summary>
-View
-</summary>
 
 > Installed from [`Remi repository`](https://rpms.remirepo.net/).
 
@@ -68,14 +56,7 @@ View
 * php-zip
 * php-gd
 
-</details>
-
 ### Alpine Linux
-
-<details>
-<summary>
-View
-</summary>
     
 > Installed from Alpine Linux official repository.
 
@@ -95,7 +76,6 @@ View
 * php-openssl
 * php-iconv
 * php-session
-</details>
 
 ## Links
 
