@@ -4,15 +4,17 @@
 
 このDockerイメージは、[`niatn1012/concrete5`]((https://hub.docker.com/r/niatn1012/concrete5/))のベースですが、ホスト上のConcrete5ソースファイルをマウントしたり、他のバージョンのものをインストールしたりすることができます。
 
-[![Docker Automated build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/niatn1012/apache-php-cc5/)
+[![Docker Automated build](https://img.shields.io/docker/automated/niatn1012/apache-php-cc5.svg)](https://hub.docker.com/r/niatn1012/apache-php-cc5/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/niatn1012/apache-php-cc5.svg)](https://hub.docker.com/r/niatn1012/apache-php-cc5/)
+[![Docker Stars](https://img.shields.io/docker/stars/niatn1012/apache-php-cc5.svg)](https://hub.docker.com/r/niatn1012/apache-php-cc5/)
 [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/Nia-TN1012/docker-apache-php-cc5/blob/master/LICENSE)
 
 ## サポートされるタグと`Dockerfile`のリンク一覧
 
-|Dockerタグ|主なミドルウェア|Dockerfileのリンク|
-|---|---|---|
-|`php70`, `7.0`, **`latest`**|Apache2, PHP7.0|[(php70)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php70)|
-|`php56`, `5.6`|Apache2, PHP5.6|[(php56)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php56)|
+|Dockerタグ|主なミドルウェア|Dockerfileのリンク|サイズ|
+|---|---|---|---|
+|`php70`, `7.0`, **`latest`**|Apache2, PHP7.0|[(php70)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php70)|[![](https://images.microbadger.com/badges/image/niatn1012/apache-php-cc5.svg)](https://microbadger.com/images/niatn1012/apache-php-cc5 "Get your own image badge on microbadger.com")|
+|`php56`, `5.6`|Apache2, PHP5.6|[(php56)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php56)|[![](https://images.microbadger.com/badges/image/niatn1012/apache-php-cc5:php56.svg)](https://microbadger.com/images/niatn1012/apache-php-cc5:php56 "Get your own image badge on microbadger.com")|
 
 ## インストールされているPHPモジュール
 
@@ -62,5 +64,6 @@ services:
 
 ## リリースノート
 
+* 2018/09/12: [全て][バグ修正] Dockerのエントリーポイントのシェルスクリプトを修正しました。
 * 2018/09/12: `php70`のビルド設定にて、Dockerfileの指定に誤りがあったので修正しました。
 * 2018/09/10: 初版リリース
