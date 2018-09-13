@@ -14,7 +14,7 @@ This Docker image is for the base of [`niatn1012/concrete5`]((https://hub.docker
 
 For OS image **Debian Stretch-slim**, **CentOS** and **Alpine Linux** are available.
 
-For PHP version `PHP 5.6`, `PHP 7.0`, `PHP 7.1` and `PHP 7.2` are available.
+For PHP version `PHP 5.6`, `PHP 7.0`, `PHP 7.1` and `PHP 7.2` are available.
 
 |Docker tag|OS image|Main middleware|Dockerfile link|Size|
 |---|---|---|---|---|
@@ -47,7 +47,7 @@ For PHP version `PHP 5.6`, `PHP 7.0`, `PHP 7.1` and `PHP 7.2` are available.
 
 ### CentOS 7
 
-> Installed from [`Remi repository`](https://rpms.remirepo.net/).
+> Installed from [`Remi repository`](https://rpms.remirepo.net/).
 
 * php-mysql
 * php-xml

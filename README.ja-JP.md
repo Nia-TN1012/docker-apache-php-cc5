@@ -32,7 +32,7 @@ PHPのバージョンは `PHP5.6` と `PHP7.0`、`PHP7.1`、`PHP7.2` がござ�
 > * Alpine Linux版は、`PHP7.2`のみの提供となります。
 
 
-## インストールされているPHPモジュール
+## インストールされているPHPモジュール
 
 ### Debian Stretch-slim版
 
@@ -48,12 +48,12 @@ PHPのバージョンは `PHP5.6` と `PHP7.0`、`PHP7.1`、`PHP7.2` がござ�
 
 ### CentOS 7版
 
-> [`Remiリポジトリ`](https://rpms.remirepo.net/)よりインストールされます。
+> [`Remiリポジトリ`](https://rpms.remirepo.net/)よりインストールされます。
 
 * php-mysql
 * php-xml
 * php-mbstring
-* php-mcrypt (`php56-centos`、`php70-centos`、`php71-centos`版のみ)
+* php-mcrypt (`php56-centos`、`php70-centos`、`php71-centos`版のみ)
 * php-zip
 * php-gd
 
