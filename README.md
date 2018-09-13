@@ -18,15 +18,15 @@ For PHP version `PHP 5.6`, `PHP 7.0`, `PHP 7.1` and `PHP 7.2` are available.
 
 |Docker tag|OS image|Main middleware|Dockerfile link|Size|
 |---|---|---|---|---|
-|`php72-debian`, `php72`, `php7-debian`, `php7`, `debian`, **`latest`**|Debian Stretch-slim|Apache2, PHP7.2|[(php72)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php72)||
-|`php72-centos`, `php7-centos`, `centos`|CentOS 7|Apache2, PHP7.2|[(php72-centos)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php72-centos)||
-|`php72-alpine`, `alpine`|Alpine Linux 3.8|Apache2, PHP7.2|[(php2-alpine)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php72-alpine)||
-|`php71-debian`, `php71`|Debian Stretch-slim|Apache2, PHP7.1|[(php71)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php71)||
-|`php71-centos`|CentOS 7|Apache2, PHP7.1|[(php71-centos)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php71-centos)||
+|`php72-debian`, `php72`, `php7-debian`, `php7`, `debian`, **`latest`**|Debian Stretch-slim|Apache2, PHP7.2|[(php72)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php72)|[![](https://images.microbadger.com/badges/image/niatn1012/apache-php-cc5:php72.svg)]|
+|`php72-centos`, `php7-centos`, `centos`|CentOS 7|Apache2, PHP7.2|[(php72-centos)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php72-centos)|[![](https://images.microbadger.com/badges/image/niatn1012/apache-php-cc5:php72-centos.svg)]|
+|`php72-alpine`, `alpine`|Alpine Linux 3.8|Apache2, PHP7.2|[(php2-alpine)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php72-alpine)|[![](https://images.microbadger.com/badges/image/niatn1012/apache-php-cc5:php72-alpine.svg)]|
+|`php71-debian`, `php71`|Debian Stretch-slim|Apache2, PHP7.1|[(php71)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php71)|[![](https://images.microbadger.com/badges/image/niatn1012/apache-php-cc5:php71.svg)]|
+|`php71-centos`|CentOS 7|Apache2, PHP7.1|[(php71-centos)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php71-centos)|[![](https://images.microbadger.com/badges/image/niatn1012/apache-php-cc5:php71-centos.svg)]|
 |`php70-debian`, `php70`, ~~`7.0`~~|Debian Stretch-slim|Apache2, PHP7.0|[(php70)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php70)|[![](https://images.microbadger.com/badges/image/niatn1012/apache-php-cc5.svg)](https://microbadger.com/images/niatn1012/apache-php-cc5 "Get your own image badge on microbadger.com")|
-|`php70-centos`|CentOS 7|Apache2, PHP7.0|[(php71-centos)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php71-centos)||
+|`php70-centos`|CentOS 7|Apache2, PHP7.0|[(php70-centos)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php70-centos)|[![](https://images.microbadger.com/badges/image/niatn1012/apache-php-cc5:php70-centos.svg)]|
 |`php56-debian`, `php56`, `php5-debian`, `php5`, ~~`5.6`~~|Debian Stretch-slim|Apache2, PHP5.6|[(php56)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php56)|[![](https://images.microbadger.com/badges/image/niatn1012/apache-php-cc5:php56.svg)](https://microbadger.com/images/niatn1012/apache-php-cc5:php56 "Get your own image badge on microbadger.com")|
-|`php56-centos`, `php5-centos`|CentOS 7|Apache2, PHP5.6|[(php56-centos)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php56-centos)||
+|`php56-centos`, `php5-centos`|CentOS 7|Apache2, PHP5.6|[(php56-centos)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php56-centos)|[![](https://images.microbadger.com/badges/image/niatn1012/apache-php-cc5:php56-centos.svg)]|
 
 > * The `7.0` and `5.6` tags have been deprecated in order to organize this repository. Please use another tag of the same image.
 > * Alpine Linux version is provided only with `PHP 7.2`.
