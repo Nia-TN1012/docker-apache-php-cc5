@@ -80,8 +80,6 @@ PHPのバージョンは `PHP5.6` と `PHP7.0`、`PHP7.1`、`PHP7.2` がござ�
 ## リンク
 
 * niatn1012/concrete5 ( [Docker Hub](https://hub.docker.com/r/niatn1012/concrete5/) / [GitHub](https://github.com/Nia-TN1012/docker-concrete5) )
-* niatn1012/concrete5-centos ( [Docker Hub](https://hub.docker.com/r/niatn1012/concrete5-centos/) / [GitHub](https://github.com/Nia-TN1012/docker-concrete5-centos) )
-* niatn1012/concrete5-alpine ( [Docker Hub](https://hub.docker.com/r/niatn1012/concrete5-alpine/) / [GitHub](https://github.com/Nia-TN1012/docker-concrete5-alpine) )
 
 ## [付録] ホスト上のConcrete5ソースファイルをマウントし、このDockerイメージからコンテナを作成して使う
 
