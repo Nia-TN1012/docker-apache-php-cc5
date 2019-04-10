@@ -52,7 +52,8 @@ RUN mkdir -p /tmp/conf_backup \
     && cp /etc/apache2/sites-available/000-default.conf /tmp/conf_backup/ \
     && echo "cp -i /tmp/conf_backup/php.ini /etc/php/7.2/apache2/" > /tmp/conf_backup/restore_conf.sh \
     && echo "cp -i /tmp/conf_backup/000-default.conf /etc/apache2/sites-available/" >> /tmp/conf_backup/restore_conf.sh \
-    && chmod +x /tmp/conf_backup/restore_conf.sh
+    && chmod +x /tmp/conf_backup/restore_conf.sh \
+    && a2enmod rewrite
 
 WORKDIR /var/www/html
 
