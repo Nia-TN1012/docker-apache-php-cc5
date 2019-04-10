@@ -45,8 +45,9 @@ ENV APACHE_RUN_DIR      /var/run/apache2
 ENV APACHE_LOG_DIR      /var/log/apache2
 ENV APACHE_LOCK_DIR     /var/lock/apache2
 
-# Add php.ini for Concrete5.
-ADD php.ini /etc/php/5.6/apache2/php.ini
+# Add Apache and PHP configration for Concrete5.
+ADD php.ini /etc/php/7.2/apache2/php.ini
+ADD concrete5.conf /etc/apache2/sites-available/000-default.conf
 # Backup Apache and PHP configration files.
 RUN mkdir -p /tmp/conf_backup \
     && cp /etc/php/5.6/apache2/php.ini /tmp/conf_backup/ \
@@ -62,5 +63,5 @@ COPY docker-entrypoint.sh /usr/local/bin/
 RUN chmod +x /usr/local/bin/docker-entrypoint.sh
 ENTRYPOINT [ "/usr/local/bin/docker-entrypoint.sh" ]
 
-# Expose 80 (HTTP) and 443 (HTTPS) ports.
-EXPOSE 80 443
+# Expose 80 (HTTP) ports.
+EXPOSE 80
