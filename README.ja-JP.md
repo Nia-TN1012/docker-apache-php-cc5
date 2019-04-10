@@ -21,13 +21,9 @@ PHPのバージョンは `PHP5.6` と `PHP7.0`、`PHP7.1`、`PHP7.2` がござ�
 |`php72-debian`, `php72`, `php7-debian`, `php7`, `debian`, **`latest`**|Debian Stretch-slim|Apache2, PHP7.2|[(php72)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php72)|[![](https://images.microbadger.com/badges/image/niatn1012/apache-php-cc5:php72.svg)](https://microbadger.com/images/niatn1012/apache-php-cc5 "Get your own image badge on microbadger.com")|
 |`php72-centos`, `php7-centos`, `centos`|CentOS 7|Apache2, PHP7.2|[(php72-centos)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php72-centos)|[![](https://images.microbadger.com/badges/image/niatn1012/apache-php-cc5:php72-centos.svg)](https://microbadger.com/images/niatn1012/apache-php-cc5 "Get your own image badge on microbadger.com")|
 |`php72-alpine`, `alpine`|Alpine Linux 3.8|Apache2, PHP7.2|[(php2-alpine)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php72-alpine)|[![](https://images.microbadger.com/badges/image/niatn1012/apache-php-cc5:php72-alpine.svg)](https://microbadger.com/images/niatn1012/apache-php-cc5 "Get your own image badge on microbadger.com")|
-|`php71-debian`, `php71`|Debian Stretch-slim|Apache2, PHP7.1|[(php71)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php71)|[![](https://images.microbadger.com/badges/image/niatn1012/apache-php-cc5:php71.svg)](https://microbadger.com/images/niatn1012/apache-php-cc5 "Get your own image badge on microbadger.com")|
-|`php71-centos`|CentOS 7|Apache2, PHP7.1|[(php71-centos)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php71-centos)|[![](https://images.microbadger.com/badges/image/niatn1012/apache-php-cc5:php71-centos.svg)](https://microbadger.com/images/niatn1012/apache-php-cc5 "Get your own image badge on microbadger.com")|
-|`php70-debian`, `php70`, ~~`7.0`~~|Debian Stretch-slim|Apache2, PHP7.0|[(php70)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php70)|[![](https://images.microbadger.com/badges/image/niatn1012/apache-php-cc5.svg)](https://microbadger.com/images/niatn1012/apache-php-cc5 "Get your own image badge on microbadger.com")|
-|`php70-centos`|CentOS 7|Apache2, PHP7.0|[(php70-centos)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php70-centos)|[![](https://images.microbadger.com/badges/image/niatn1012/apache-php-cc5:php70-centos.svg)](https://microbadger.com/images/niatn1012/apache-php-cc5 "Get your own image badge on microbadger.com")|
-|`php56-debian`, `php56`, `php5-debian`, `php5`, ~~`5.6`~~|Debian Stretch-slim|Apache2, PHP5.6|[(php56)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php56)|[![](https://images.microbadger.com/badges/image/niatn1012/apache-php-cc5:php56.svg)](https://microbadger.com/images/niatn1012/apache-php-cc5:php56 "Get your own image badge on microbadger.com")|
+|`php56-debian`, `php56`, `php5-debian`, `php5`|Debian Stretch-slim|Apache2, PHP5.6|[(php56)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php56)|[![](https://images.microbadger.com/badges/image/niatn1012/apache-php-cc5:php56.svg)](https://microbadger.com/images/niatn1012/apache-php-cc5:php56 "Get your own image badge on microbadger.com")|
 |`php56-centos`, `php5-centos`|CentOS 7|Apache2, PHP5.6|[(php56-centos)](https://github.com/Nia-TN1012/docker-apache-php-cc5/tree/master/php56-centos)|[![](https://images.microbadger.com/badges/image/niatn1012/apache-php-cc5:php56-centos.svg)](https://microbadger.com/images/niatn1012/apache-php-cc5 "Get your own image badge on microbadger.com")|
-> * `7.0`、`5.6` タグはリポジトリの整理のため、非推奨とさせていただきました。お手数ですが、同一イメージの別のタグをご利用ください。
+
 > * Alpine Linux版は、`PHP7.2`のみの提供となります。
 
 
@@ -35,13 +31,13 @@ PHPのバージョンは `PHP5.6` と `PHP7.0`、`PHP7.1`、`PHP7.2` がござ�
 
 ### Debian Stretch-slim版
 
-> `php70`版のみDebian公式リポジトリより、`php72`、`php71`、`php56`版では[`Suryリポジトリ`](https://deb.sury.org/)よりインストールされます。
+> [`Suryリポジトリ`](https://deb.sury.org/)よりインストールされます。
 
 * php-mysql
 * php-xml
 * php-mbstring
 * php-curl
-* php-mcrypt (`php56`、`php70`、`php71`版のみ)
+* php-mcrypt (`php56`版のみ)
 * php-zip
 * php-gd
 
@@ -52,7 +48,7 @@ PHPのバージョンは `PHP5.6` と `PHP7.0`、`PHP7.1`、`PHP7.2` がござ�
 * php-mysql
 * php-xml
 * php-mbstring
-* php-mcrypt (`php56-centos`、`php70-centos`、`php71-centos`版のみ)
+* php-mcrypt (`php56-centos`版のみ)
 * php-zip
 * php-gd
 
@@ -87,7 +83,7 @@ PHPのバージョンは `PHP5.6` と `PHP7.0`、`PHP7.1`、`PHP7.2` がござ�
 
 ```bash
 # `docker run`コマンド
-docker run --name cc5_app --link cc5_db:cc5:db -v /${CONCRETE5_SOURCE_PATH}:/var/www/html -d niatn1012/apache-php-cc5:php70
+docker run --name cc5_app --link cc5_db:cc5:db -v /${CONCRETE5_SOURCE_PATH}:/var/www/html -d niatn1012/apache-php-cc5:php72
 ```
 
 ```yml
@@ -95,7 +91,7 @@ docker run --name cc5_app --link cc5_db:cc5:db -v /${CONCRETE5_SOURCE_PATH}:/var
 version: "3"
 services:
     app:
-        image: niatn1012/apache-php-cc5:php70
+        image: niatn1012/apache-php-cc5:php72
         container_name: cc5_app
         links:
           - cc5_db:cc5_db
@@ -114,6 +110,7 @@ services:
 
 ## リリースノート
 
+* 2019/04/10: Dockerイメージの整理のため、ラインナップをPHP5.6とPHP7.2のみにしました。DockerfileとApacheの設定ファイルを修正しました。
 * 2018/09/14: 新たなバリエーションとして、PHP7.1、PHP7.2、CentOS、Alpine Linux版を追加しました。
 * 2018/09/12: [全て][バグ修正] Dockerのエントリーポイントのシェルスクリプトを修正しました。
 * 2018/09/12: `php70`のビルド設定にて、Dockerfileの指定に誤りがあったので修正しました。
